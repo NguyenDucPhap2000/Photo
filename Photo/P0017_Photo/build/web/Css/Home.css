@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/background.png);
+    background-color: #aa4043;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+.container{
+    height: auto;
+    width:  100%;
+}
+.main{
+    height: auto;
+    color: white;
+}
+.content{
+    width: 940px;
+    height: auto;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0 100px;
+}
+.left{
+    height: auto;
+    width: 700px;
+}
+.imghome img{
+    width: 700px;
+    height: auto;
+    background-image: url(../images/homeImage.jpg);
+}
+.imgsubtitle{
+    font-style: italic;
+    font-family: sans-serif;
+}
+.categrory{
+    padding: 70px 0 20px;
+}
+.categroryimg{
+    display: flex;
+    justify-content: space-between;
+}
+.categroryimg img{
+    width: 213px;
+    height: auto;
+}
+.categrory > .paging{
+    margin: 15px 0px; 
+    text-align: center;
+}
+.categrory > .paging a{
+    padding: 3px; 
+    color: black; 
+    font-size: 30px; 
+    text-decoration: none; 
+    margin-right: 10px; 
+    background-color: white;
+}
+.img{
+    width: 215px;
+    height: auto;
+}
+.img a{
+    font-size: 22px;
+    color: white;
+}
+.img p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.paging a.active{
+    background-color: yellow;
+}
+.moreinfor{
+    padding-top: 30px;
+}
+.aboutme{
+    font-size: 28px;
+}
+.aboutme h3{
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.shortinfor{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+

@@ -1,0 +1,36 @@
+.right{
+    height: auto;
+    width: 240px;
+    padding-left: 20px;
+}
+.rightimg{
+    width: 220px;
+    height: 115px;
+    background-color: #893B3D;
+    background-image: url(../images/background.png);
+}
+.rightimg a {
+    color: white;
+    font-family: sans-serif;
+}
+.Share{
+    background-color: #303030;
+    padding: 10px 0 0 10px;
+    font-size: 22px;
+}
+.google {
+    display: flex;
+    padding : 0 0 0 10px;
+}
+.rightimg img{
+    width: 19px;
+    height: 18px;
+}
+.facebook{
+    display: flex;
+    padding:10px 0 0 10px;
+}
+.twitter{
+    display: flex;
+    padding : 0 0 0 10px;
+}

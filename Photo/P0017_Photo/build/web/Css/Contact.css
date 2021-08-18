@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/background.png);
+    background-color: #aa4043;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+.container{
+    height: auto;
+    width:  100%;
+}
+.main{
+    height: auto;
+    color: white;
+}
+.content{
+    width: 940px;
+    height: auto;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0 100px;
+}
+.left{
+    width: 700px;
+    height: auto;
+}
+.heading{
+    width: 700px;
+    height: 52px;
+    padding: 10px 0;
+}
+.heading h1{
+    font-weight: 100;
+}
+.information{
+    margin-bottom: 30px;
+}
+.information p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.information h2{
+    padding: 40px 0 20px;
+    font-weight: 100;
+}
+.phone{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.phone a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.Email{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.Email a{
+    text-decoration: none;
+    color: white;
+    margin-left: 6px;
+}
+.map{
+    margin: 100px 0 50px;
+}
